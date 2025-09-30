@@ -4,6 +4,7 @@ import {DemoComponent} from './shared/demo-component/demo-component';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [RouterOutlet, DemoComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
